@@ -454,10 +454,10 @@ CONFIG_ARM64_UAO=y
 #
 # Boot options
 #
-CONFIG_CMDLINE="console=tty0 systempart=/dev/disk/by-partlabel/SYSTEM androidboot.selinux=permissive sec_debug.sjl=1 ess_setup=0x46000000 tima_log=0x200000@0x52a00000 sec_avc_log=0x40000@0x47002000 sec_tsp_log=0x40000@0x47044000 s3cfb.bootloaderfb=0x67000000 lcdtype=4259842 consoleblank=0 vmalloc=384m sec_debug.reset_reason=7 sec_reset.reset_reason=7 ehci_hcd.park=3 oops=panic pmic_info=3 ccic_info=1 cordon=ba8ba6c87247602e32a5fbd31999fb68 connie=SM-A320FL_OPEN_EUR_c569917babdc07e8d042d9755f4d4e96 fg_reset=0 androidboot.emmc_checksum=3 androidboot.sales.param.offset=7340572 sales_code=BTU androidboot.odin_download=1 androidboot.bootloader=A320FLXXS9CTK2 androidboot.selinux=enforcing androidboot.security_mode=1526595584 androidboot.ucs_mode=0 androidboot.hw_rev=4 androidboot.hardware=samsungexynos7870 androidboot.warranty_bit=1 androidboot.wb.hs=030c sec_debug.bin=A"
+CONFIG_CMDLINE="console=tty0 systempart=/dev/disk/by-partlabel/SYSTEM"
 # CONFIG_CMDLINE_FROM_BOOTLOADER is not set
-# CONFIG_CMDLINE_EXTEND=y
-CONFIG_CMDLINE_FORCE=y
+CONFIG_CMDLINE_EXTEND=y
+# CONFIG_CMDLINE_FORCE is not set
 # CONFIG_EFI is not set
 # CONFIG_TIMA is not set
 # CONFIG_TIMA_LKMAUTH is not set
